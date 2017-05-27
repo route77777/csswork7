@@ -1,0 +1,599 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    overflow: scroll;
+    height: auto;
+}
+.toptext_right {
+	display: inline-block;
+	background: white;
+    width: 300px;
+}
+.toutu_bigbox{
+	background-image: url('file:///C:/Users/dell/Desktop/csswork7-%E5%9B%BE%E7%89%87/toutu.png');
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale'); 
+       width: 100%;
+       height: 60rem;
+	    -moz-background-size:100% 100%;
+	    background-size:100% 100%;  
+	position: relative;
+}
+.toptext_right  ul li a{
+	float:left;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 20px;
+	color: rgb(140,142,147);
+	padding-bottom: 9.5px;
+	
+}
+.toptext_right ul li:hover{
+    color:rgb(231,78,73);
+    border-bottom: 2px solid #E74E49;
+}
+.topbox{
+	display: inline-block;
+	width: auto;
+	height: 48px;
+
+	background: white;
+	margin-bottom: 0;
+}
+.toptext_left{
+	
+	display: inline-block;
+	float: left;
+	width: 240px;
+	padding-left: 20px;
+	  font-family: 黑体;
+  font-size: 21px;
+  color: rgb(58,58,58);
+  margin-bottom: 5.5px;
+}
+.toptext_right{
+	float: right;
+	display: inline-block;
+	float: right;
+	margin-top: 16px;
+}
+h3{
+	display: inline-block;
+	width: 200px;
+}
+.toutu_box{
+	width: 67rem;
+	height: 50rem;
+	position: relative;
+	padding-left: 10rem;
+	padding-top: 10rem;
+}
+.zhezhao_toutu{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+     width: 100%;
+     height: 100%;
+	background: rgba(0,0,0,0.2);
+	z-index: 99;
+}
+.toutu_dazi{
+	position: absolute;
+	font-family: Microsoft Yahei;
+	color: white;
+	font-size: 5em;
+	z-index: 9999;
+	text-align: left;
+}
+.toutu_xiaozi{
+	position: absolute;
+	font-family: Microsoft Yahei;
+	color: white;
+	font-size: 21px;
+	z-index: 9999;
+	top:42%;
+	text-align: left;
+
+}
+.toutu_xiaozi_two{
+	position: absolute;
+	font-family: Microsoft Yahei;
+	color: white;
+	font-size: 21px;
+	z-index: 9999;
+	top:48%;
+   text-align: left;
+	margin-bottom: 5px;
+}
+.block{
+	display: inline-block;
+	width: 30%;
+	height: 8%;
+	position: absolute;
+	bottom: 30%;
+	background: rgb(231,78,73);
+	color: white;
+	text-align: center;
+
+	left: 15%;
+	z-index: 998;
+	font-family: Microsoft Yahei;
+}
+.block p{
+	position: relative;
+	z-index: 999;
+	display: inline-block;
+	top:50%;
+	transform: translateY(-50%);
+}
+.second_part ul li{
+	width: 24.3%;
+	
+    font-size: 0.7em;
+    font-family: 黑体;
+    margin-bottom: 5%;
+}
+.second_part ul li p{
+	width: 60%;
+	text-align: center;
+	margin-left: 13%;
+	font-size: 1.5rem;
+}
+.third_part{
+	background: rgb(237,237,237);
+	position: relative;
+}
+.third_part img{
+	display: block;
+	
+	top:40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+.third_bigtext {
+	display: inline-block;
+	font-size:2.5em;
+	font-family: 黑体;
+	color: black;
+	position: absolute;
+	opacity: 0.5;
+	left: 50%;
+	top: 70%;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.line{
+	display: inline-block;
+	background: white;
+	width: 2.4em;
+	z-index: 999999;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 0.1em;
+	position: absolute;
+	margin-top:1.6rem;
+
+}
+.city_activity{
+	display: inline-block;
+   position: absolute;
+	top:27%;
+	width: 100%;
+	text-align: center;
+
+   bottom: 3em;
+	z-index: 999999;
+	color: white;
+	font-size: 2rem;
+	letter-spacing: 0.1em;
+}
+.forth_part{
+
+	position: relative;
+}
+.forth_zhezhao{
+
+	position: absolute;
+	background:rgba(190,79,72,0.4);
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+.xinxi{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    z-index: 999999;
+    letter-spacing: 0.1em;
+}
+.btn_guojia{
+	 z-index: 9999 width:4rem;
+	 height:1rem;background:rgb(190,79,72);
+	 display:block;position:absolute;
+	 bottom:20%;color: white;border-top: 1px solid rgb(190,79,72);
+}
+.btn_group{
+   position: absolute;
+   bottom: 20%;
+   left: 20%;
+}
+.fifth_part{
+	width: 100%;
+	height: 60%;
+	position: relative;
+    background: rgb(237,237,237);
+}
+.fifth_part ul{
+	 display: flex;
+    justify-content: center;
+   position: relative;
+    list-style: none;
+    margin-bottom: 10%;
+	
+}
+.fifth_part ul li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+   	margin-top: 12rem;
+	margin-left: 5%;
+}
+
+.fifth_part ul li img{
+	box-shadow:0 0 0 15px rgba(255, 255, 255, 1), 0 0 0 16px rgba(100, 100, 100, 0.2)
+}
+.hualang_beijing
+{
+	position: relative;
+}
+.hualang_big{
+	display: block;
+	margin-top: 2.5rem;
+	  text-align: center;
+	  color: #111111;
+	  font-family: 黑体;
+	  margin: 2rem  auto;
+	  font-size: 1.7rem;
+}
+.hualang_small{
+	display: block;
+   margin-top: 2.5rem;
+   text-align: center;
+     margin: 0  auto;
+     color: rgba(0,0,0,.6);
+	  font-size: 1.5rem;
+	  letter-spacing: 0.5rem;
+}
+.shanghai{
+	display: block;
+	  text-align: center;
+	  color: #111111;
+	  font-family: 黑体;
+	  font-size: 2.7rem;
+	  margin-top: -1.5rem;
+	letter-spacing: 1.2rem;
+}
+.shanghai_small{
+		display: block;
+   margin-top: 2.5rem;
+   text-align: center;
+     margin: 0  auto;
+     color: rgba(0,0,0,.6);
+	  font-size: 1.5rem;
+	  letter-spacing: 0.5rem;
+}
+.six_part{
+	position: relative;
+	width: 100%;
+	height:auto;
+
+    display: flex;
+}
+.six_part_left{
+	
+	display: inline-block;
+	width: 66.6%;
+    height: 58rem;
+    position: relative;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale'); 
+
+	    -moz-background-size:100% 100%;
+	    background-size:100% 100%;  
+  background-image: url("file:///C:/Users/dell/Desktop/csswork7-%E5%9B%BE%E7%89%87/newworld.png");
+
+
+}
+.six_part_right{
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 33%;
+  right: 0;
+  height: 37.35rem;;
+  top: 0;
+
+
+}
+.six_head{
+  color: black;
+  font-size: 2.3rem;
+  padding-top: 30%;
+  text-align: center;
+  font-family: 黑体;
+}
+
+ .more_info{
+	display: inline-block;
+	width: 10rem;
+	border-radius: 1px;
+	border:1px solid rgb(232,80,79);
+	text-align: center;
+	position: relative;
+	left: 50%;
+	margin-top: 10%;
+	transform:translateX(-50%);
+}
+ .more_info p{
+	padding:12px 6px 16px 6px;
+	font-size: 1.5rem;  
+	line-height: 1rem;
+	height: 1rem;
+	font-family: 黑体;
+    vertical-align: middle;
+	color: rgb(232,80,79);
+}
+.circles{
+	padding-top: 10%;
+	left: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+.circles li{
+	margin-right: 0.6rem;
+}
+.full_circle{
+	display: inline-block;
+	width: 11.5px;
+	height: 11.5px;
+	border-radius: 100%;
+	background: rgb(140,140,140);
+	margin-left: 0.3rem;
+}
+.six_part_right .six_sm{
+	font-size:1.4rem;
+	color: black;
+	opacity: 0.5;
+	line-height: 3.2rem;
+	text-align: left;
+	font-family: 黑体;
+	padding-left : 70px;
+    padding-right : 70px;
+    padding-top : 10px;
+}
+.empty_circle
+{
+	display: inline-block;
+    width: 12px;
+	height:12px;
+	border-radius: 100%;
+	background: white;
+	border:1px solid rgb(140,140,140);
+
+}
+.six_part_left p{
+	color: white;
+	text-align: center;
+}
+.newworld_beijing{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	width: 46rem;
+	height: 46rem;
+	z-index: 999999;
+}
+.six_big{
+	padding-left:3%;
+	font-size: 黑体;
+	font-size: 10rem;
+}
+.six_lg{
+	text-align: center;
+	font-size: 20rem;
+	margin-top: -6rem;
+	font-family: Microsoft Yahei;
+
+}
+.six_sm{
+	font-size: 2.6rem;
+	font-family: Microsoft Yahei;
+}
+.seventh_part{
+	display: flex;
+	height: 54rem;
+}
+.seventh_part_first{
+	background: rgb(238,80,79);
+    width: 33.3%;
+    height: 80%;
+    position: relative;
+
+}
+.seventh_part_first p{
+	color: white;
+
+}
+.seventh_wenzi{
+	position: relative;
+	width: 21.1rem;
+	height: 20.0rem;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-50%);
+
+}
+.seventh_part_second{
+	width: 33.3%;height: 80%;
+}
+.seventh_part_last{
+	
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale'); 
+
+	    -moz-background-size:100% 100%;
+	    background-size:100% 100%;  
+  background-image: url("file:///C:/Users/dell/Desktop/csswork7-%E5%9B%BE%E7%89%87/100.png");
+	width: 33.3%;
+	height: 80%;
+
+}
+.eieth_part{
+	background: white;
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+    margin-bottom: 10%;
+	position: relative;
+
+}
+.eieth_part_box{
+	width:100%;
+	height: 13rem;
+}
+.line .eieth_line{
+	position: absolute;
+}
+.eieth_head{
+	top: 0;
+	color: black;
+  font-size: 2.3rem;
+  text-align: center;
+  font-family: 黑体;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.eieth_wenzi{
+	font-size: 1.8rem;
+	color: black;
+    opacity: 0.5;
+    line-height: 1.2rem;
+    text-align: center;
+    font-family: 黑体;
+    padding-top: 4rem;
+}
+.eieth_wenzi_two,.eieth_wenzi_three{
+	    font-size: 1.8rem;
+	    color: black;
+    opacity: 0.5;
+    line-height: 1.2rem;
+    text-align: center;
+    font-family: 黑体;
+    padding-top: 0rem;
+}
+.eieth_left_box{
+	display: inline-block;
+	float: left;
+	width:30%;
+	height: auto;
+}
+.eieth_left_box_title{
+	font:1.8rem black;
+	font-family:黑体;
+	line-height: 2rem;
+}
+.eieth_left_box_sm{
+	font:1.2rem black;
+	opacity: 0.6;
+	line-height:2rem;
+	font-family:黑体;
+}
+.eieth_right{
+	width: 60%;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0px;
+
+}
+.eieth_right_bg,.eieth_right_bg_two,.eieth_right_bg_three{
+	background: rgb(237,237,239);
+	width: 45%;
+	height:4rem;
+	margin-right: 3%;
+	position: relative;
+	top: 0;
+	margin-bottom: 2%;
+
+}
+.eieth_right_bg p{
+
+   font-size: 1.4rem;
+   font-family: 黑体;
+   left:1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+   position: absolute;
+   
+}
+.list-inline{
+position: absolute;
+width: auto;
+right: 0px;
+
+}
+.eieth_juzhong p{
+  text-align: center;
+}
+.eieth_right_bg_two p{
+	 font-size: 1.4rem;
+   font-family: 黑体;
+   left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+   position: absolute;
+}
+.eieth_right_bg_three p{
+
+   font-size: 1.4rem;
+   font-family: 黑体;
+   left:1.2rem;
+  top: 15%;
+  transform: translateY(-50%);
+   position: absolute;
+}
+.ninth_part{
+	width: 100%;
+   margin-top: 30%;
+	background: rgb(51,54,63);
+	height: auto;
+}
+.ninth_part_box{
+  width: 60rem;
+  height: 20rem;
+  margin:0% auto;
+  padding:5% 0;
+}
+.ninth_head{
+
+  color: white;
+  font-size: 2.3rem;
+  text-align: center;
+  font-family: 黑体;
+
+}
+.eieth_wenzi_three{
+	font-size: 1.5rem;
+	padding-bottom: 0.4rem;
+	opacity: 1;
+}
